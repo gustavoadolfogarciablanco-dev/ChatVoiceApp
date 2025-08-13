@@ -123,7 +123,7 @@ El proyecto está enfocado en la mensajería de voz profesional, con visualizaci
 1. Clona el repositorio:
    ```sh
    git clone <url-del-repo>
-   cd Code
+   cd code
    ```
 2. Instala dependencias:
    ```sh
