@@ -1,0 +1,63 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+/dist/
+/.nuxt/
+/.output/
+/.vercel/
+/.cache/
+/.temp/
+
+# Environment
+.env
+.env.*
+
+# IDE/Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+
+# Misc
+*.swp
+*.bak
+*.tmp
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: ignore local assets
+/assets/
+
+# Optional: ignore generated types
+/types/
+
+# Optional: ignore local database
+*.sqlite
+*.db
+
+# Optional: ignore local files
+local.*
+
+# Optional: ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional: ignore output from realtime server
+realtime-server.log

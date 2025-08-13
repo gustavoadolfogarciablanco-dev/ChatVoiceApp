@@ -1,0 +1,34 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@components/*": ["components/*"],
+      "@composables/*": ["composables/*"],
+      "@stores/*": ["store/*"]
+    },
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "vite/client"],
+    "lib": ["ES2022", "DOM", "DOM.Iterable"]
+  },
+  "include": [
+    "nuxt.config.ts",
+    "plugins/**/*.ts",
+    "types/**/*.d.ts",
+    "components/**/*.vue",
+    "pages/**/*.vue",
+    "layouts/**/*.vue",
+    "store/**/*.ts",
+    "composables/**/*.ts"
+  ],
+  "exclude": ["node_modules", "dist"],
+  "vueCompilerOptions": {
+    "strictTemplates": false,
+    "globalTypesPath": "types/vue-global.d.ts"
+  }
+}
